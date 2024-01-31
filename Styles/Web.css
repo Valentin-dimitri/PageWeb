@@ -1,0 +1,55 @@
+header {
+    flex-direction: column;
+    position: fixed;
+    display: flex;
+    z-index: 10;
+    width: 100vw;
+    height: 15vh;
+    background-color: #dfdfc4;
+    color: black;
+    text-align: center;
+    padding: 25px 0px;
+    margin: auto;
+    
+}
+
+header>h1 {
+    font-size: 4vh;
+}
+
+header>h2 {
+    font-size: 2vh;
+}
+
+main {
+    position: relative;
+    top: 25vh;
+    left: 30vw;
+    width: 45vw;
+}
+
+footer {
+    position: fixed;
+    width: 80vw;
+    z-index: 10;
+    bottom: 0;
+    left: 20vw;
+    height: 2vh;
+    background-image: url(../Assets/Lol.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bouton{
+    color: #dcdcdc;
+    text-decoration: none;
+    font-size: 2vh;
+    display: block;
+    background-color: #d2691e;
+    border-radius: 0.5vh;
+    padding: 0.5vh;
+    width: 15vw;
+    text-align: center;
+    transition: box-shadow 500ms;
+}
