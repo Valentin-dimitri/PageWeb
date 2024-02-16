@@ -29,6 +29,7 @@ main {
     top: 25vh;
     left: 30vw;
     width: 45vw;
+    background-image: url("../Assets/freljord_splash.jpg");
 }
 
 nav{
@@ -59,7 +60,7 @@ nav{
     background-color: #d2691e;
     border-radius: 0.5vh;
     padding: 0.5vh;
-    width: 15vw;
+    width: 2vw;
     text-align: center;
     transition: box-shadow 500ms;
 }
