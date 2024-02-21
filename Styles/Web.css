@@ -21,21 +21,20 @@ header>h2 {
     font-size: 2vh;
 }
 
-main {
+.main {
     position: relative;
     top: 25vh;
     left: 30vw;
     width: 45vw;
 }
 
-footer {
+.footer {
     position: fixed;
     width: 80vw;
     z-index: 10;
     bottom: 0;
     left: 20vw;
     height: 2vh;
-    background-image: url(../Assets/lol2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 

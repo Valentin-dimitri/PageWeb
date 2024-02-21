@@ -3,8 +3,8 @@ header {
     position: fixed;
     display: flex;
     z-index: 10;
-    width: 90vw;
-    height: 25vh;
+    width: 100vw;
+    height: 15vh;
     left : 0vw;
     top: -0.1%;
     background-image: url(../Assets/lol2.jpg);
@@ -16,8 +16,13 @@ header {
     
 }
 
+h1 {
+    text-align: center;
+}
+
 header>h1 {
     font-size: 4vh;
+    text-align: center;
 }
 
 header>h2 {
@@ -31,6 +36,7 @@ main {
     width: 45vw;
     background-image: url("../Assets/freljord_splash.jpg");
 }
+
 
 nav{
     position: fixed;
