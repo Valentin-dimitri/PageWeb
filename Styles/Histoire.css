@@ -71,5 +71,11 @@ article{
     margin-bottom: 2.5vh;
     font-style: italic; 
     font: weight 600px;
+    font-size: 20px;
+    
 
+}
+
+.p1 {
+    line-height: 1em;
 }
